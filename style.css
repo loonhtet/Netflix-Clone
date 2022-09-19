@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Start navbar  */
+
+.navbar-brand img {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+}
+
+.nav-item .navsignin {
+  color: #fff;
+  background-color: #dd0611;
+}
+
+select {
+  background: rgb(7, 7, 7);
+  border: 1px solid #cccccc;
+}
+
+/* End navbar  */
+
+/* Start Banner  */
+
+.banner {
+  height: 82vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./assets/img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+
+  border-bottom: 8px solid grey;
+}
+
+.banner .bannercontainer {
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .banner .bannercontainer h1 {
+  font-size: 60px;
+} */
+
+.banner .emailbox {
+  border: none;
+  padding: 10px 220px 10px 10px;
+}
+
+.banner .emailbtn {
+  border: none;
+  font-size: 24px;
+  padding: 10px 50px;
+  color: #fff;
+  background-color: #dd0611;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .banner .emailbox {
+    padding: 10px 120px 10px 10px;
+  }
+
+  .banner .emailbtn {
+    font-size: 14px;
+    padding: 5px 18px;
+  }
+}
+
+/* End Banner  */
+
+/* Start Enjoy Section  */
+
+.enjoytext {
+}
+
+/* End Enjoy Section  */
