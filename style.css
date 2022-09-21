@@ -53,19 +53,20 @@
 }
 
 @media (max-width: 768px) {
-  .emailbox {
-    width: 30%;
+  /* .emailbox {
+    width: 60%;
     padding: 18px 8px;
   }
 
   .startbox {
-    width: 20%;
+    width: 50%;
     font-size: 15px;
-  }
+  } */
 }
 
 .bannercss aside {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* End Banner Section  */
