@@ -74,13 +74,13 @@
 
 /* Start Enjoy Section  */
 
+.enjoycss {
+  background-color: rgb(0, 0, 0);
+}
+
 .textcentercss {
   display: grid;
   place-items: center;
-}
-
-.enjoycss {
-  background-color: rgb(0, 0, 0);
 }
 
 .imgcss {
